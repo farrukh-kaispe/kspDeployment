@@ -2,21 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        
-        "location": {
-            "type": "string",
-            "allowedValues": [
-                "East Asia",
-                "Central US",
-                "East US",
-                "West US",
-                "Southeast Asia"
-              ],
-            "defaultValue": "eastasia"
-            
-        }
-        
-        
+                
     },
     "variables": {
         
