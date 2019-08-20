@@ -3,17 +3,7 @@
     "handler": "Microsoft.Azure.CreateUIDef",
     "version": "0.1.2-preview",
     "parameters": {
-        "basics": [
-            {
-                "name": "clusterName",
-                "type": "Microsoft.Common.TextBox",
-                "label": "Sample Input",
-                "defaultValue": "",
-                "constraints": {
-                    "required": false
-                }
-            }
-        ],
+        "basics": [ ],
         "steps": [ ],
         "outputs": { }
     }

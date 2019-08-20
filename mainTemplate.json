@@ -1,5 +1,5 @@
 {
-    "$schema": "https://deploy.azure.com/?repository=https://github.com/farrukh-kaispe/kspDeployment/createUIDefinition.json#",
+    "$schema": "https://deploy.azure.com/?repository=https://github.com/farrukh-kaispe/kspDeployment/createUIDefinition.MultiVm.json#",
     "contentVersion": "1.0.0.0",
     
     "parameters": {
