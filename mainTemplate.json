@@ -1,9 +1,23 @@
 {
-    "$schema": "https://deploy.azure.com/?repository=https://github.com/farrukh-kaispe/kspDeployment/createUIDefinition.MultiVm.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
-    
     "parameters": {
-                },
+        
+        "location": {
+            "type": "string",
+            "allowedValues": [
+                "East Asia",
+                "Central US",
+                "East US",
+                "West US",
+                "Southeast Asia"
+              ],
+            "defaultValue": "East Asia"
+            
+        }
+        
+        
+    },
     "variables": {
         
         "storageAccountName": "[concat('storage', uniqueString(resourceGroup().id))]",
@@ -24,6 +38,7 @@
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2018-07-01",
             "location": "[parameters('location')]",
+            
             "properties": {
                 "accessTier":"Hot"
                 
