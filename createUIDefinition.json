@@ -14,14 +14,7 @@
                 }
             }
         ],
-        "steps": [
-            {
-                
-            }
-        ],
-        "outputs": {
-            "outTextBox": "[basics('clusterName')]"
-            
-        }
+        "steps": [ ],
+        "outputs": { }
     }
 }

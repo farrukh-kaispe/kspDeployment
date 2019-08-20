@@ -1,8 +1,21 @@
 {
     "$schema": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
     "contentVersion": "1.0.0.0",
+    
     "parameters": {
-                
+        "basics": [
+            {
+                "name": "clusterName",
+                "type": "Microsoft.Common.TextBox",
+                "label": "Sample Input",
+                "defaultValue": "",
+                "constraints": {
+                    "required": false
+                }
+            }
+        ],
+        "steps": [ ],
+        "outputs": { }
     },
     "variables": {
         
